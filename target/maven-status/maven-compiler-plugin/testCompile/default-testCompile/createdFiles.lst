@@ -1,0 +1,7 @@
+base\BaseTest.class
+tests\AppointmentHistoryTest.class
+listeners\TestListener.class
+tests\AppointmentBookingTest.class
+tests\LoginTest.class
+tests\FormValidationsTest.class
+tests\MultipleAppointmentsTest.class
