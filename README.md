@@ -1,12 +1,8 @@
 # CuraHealth Automation Framework
 
-Selenium-Java Test Automation Framework for a Healthcare Appointment Booking Application.
-
----
-
 ## 📌 Project Overview
 
-This framework automates end-to-end test scenarios for the Cura Healthcare demo application using Selenium WebDriver with a structured Page Object Model (POM) design.
+This framework automates test scenarios for the Cura Healthcare demo application using Selenium WebDriver with a structured Page Object Model (POM) design.
 
 It ensures scalability, maintainability, and reusability by separating test logic, page actions, and utilities.
 
@@ -21,18 +17,6 @@ It ensures scalability, maintainability, and reusability by separating test logi
 - Capture screenshots on failure
 - Generate Extent Reports
 - Maintain clean and reusable code
-
----
-
-## 🔗 Application Under Test
-
-URL: https://katalon-demo-cura.herokuapp.com
-
-### Modules Covered:
-- Authentication (Login / Logout)
-- Appointment Booking
-- Appointment History
-- Form Validations
 
 ---
 
@@ -116,7 +100,7 @@ CuraHealth_Automation/
 ### 3. Appointment History
 - Verify history page loads
 - Validate latest appointment details
-- Verify table structure
+- Verify history content
 
 ### 4. Multiple Appointments
 - Book multiple appointments
@@ -129,6 +113,30 @@ CuraHealth_Automation/
 - Long text handling
 
 ---
+
+## ⚠️ Known Observations / Limitations
+
+The following test scenarios were implemented, but the current application behavior does not fully support the expected validation:
+
+### 1. Verify appointment date field rejects past dates
+- **Expected:** System should not allow selecting or submitting past dates  
+- **Actual:** Application accepts past dates without validation  
+- **Handling in Framework:** Logged as `WARNING` in Extent Report using `test.warning()` instead of failing the test
+
+---
+
+### 2. Verify appointments are sorted by date in the history view
+- **Expected:** Appointments should be displayed in chronological order  
+- **Actual:** No sorting functionality is implemented in the application  
+- **Handling in Framework:** Logged as `WARNING` in Extent Report using `test.warning()` to highlight missing feature
+
+---
+
+### 📌 Note
+These are not automation failures but application limitations.  
+Using `WARNING` helps distinguish:
+- ❌ Actual test failures (defects in implemented features)  
+- ⚠️ Missing validations or features in the application  
 
 ---
 
