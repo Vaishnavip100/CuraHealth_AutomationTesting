@@ -31,7 +31,7 @@ It ensures scalability, maintainability, and reusability by separating test logi
 
 ---
 
-🔄 Test Automation Workflow
+🔄 Project Workflow
 
 <img width="4901" height="3093" alt="Project13Workflow drawio" src="https://github.com/user-attachments/assets/114f91b5-0a9d-4d77-a17c-ccbda369c7d4" />
 
