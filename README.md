@@ -182,4 +182,3 @@ Vaishnavi
 ## 📌 Conclusion
 
 This project demonstrates a robust and scalable test automation framework built using Selenium WebDriver, Java, TestNG, and Maven.  By following the Page Object Model and best practices like reusable components, proper test separation, it ensures maintainability and reliability.
----
