@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-21T15:07:46 IST" name="Automation Suite" finished-at="2026-04-21T15:09:14 IST" duration-ms="88475">
+    <groups>
+    </groups>
+    <test started-at="2026-04-21T15:07:46 IST" name="User Authentication Tests" finished-at="2026-04-21T15:08:13 IST" duration-ms="27414">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:07:48 IST" name="setUp" finished-at="2026-04-21T15:07:53 IST" duration-ms="5901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:07:53 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-04-21T15:07:55 IST" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:07:55 IST" name="tearDown" finished-at="2026-04-21T15:07:55 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:07:55 IST" name="setUp" finished-at="2026-04-21T15:07:59 IST" duration-ms="3880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:07:59 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-04-21T15:08:01 IST" duration-ms="1626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaishnavi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:01 IST" name="tearDown" finished-at="2026-04-21T15:08:01 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:01 IST" name="setUp" finished-at="2026-04-21T15:08:03 IST" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutRedirectsToHomePage()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:03 IST" name="verifyLogoutRedirectsToHomePage" finished-at="2026-04-21T15:08:08 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectsToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:08 IST" name="tearDown" finished-at="2026-04-21T15:08:08 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:08 IST" name="setUp" finished-at="2026-04-21T15:08:12 IST" duration-ms="3995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProtectedPageRedirectToLogin()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:12 IST" name="verifyProtectedPageRedirectToLogin" finished-at="2026-04-21T15:08:13 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProtectedPageRedirectToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7188af83]" started-at="2026-04-21T15:08:13 IST" name="tearDown" finished-at="2026-04-21T15:08:13 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- User Authentication Tests -->
+    <test started-at="2026-04-21T15:07:46 IST" name="Appointment Booking Tests" finished-at="2026-04-21T15:08:34 IST" duration-ms="48164">
+      <class name="tests.AppointmentBookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:07:46 IST" name="setUp" finished-at="2026-04-21T15:07:58 IST" duration-ms="12105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:07:58 IST" name="login" finished-at="2026-04-21T15:07:59 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyAppointmentBooking()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:07:59 IST" name="verifyAppointmentBooking" finished-at="2026-04-21T15:08:02 IST" duration-ms="2674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:02 IST" name="tearDown" finished-at="2026-04-21T15:08:02 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:02 IST" name="setUp" finished-at="2026-04-21T15:08:10 IST" duration-ms="7443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:10 IST" name="login" finished-at="2026-04-21T15:08:11 IST" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyAppointmentDetails()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:11 IST" name="verifyAppointmentDetails" finished-at="2026-04-21T15:08:12 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:12 IST" name="tearDown" finished-at="2026-04-21T15:08:12 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:12 IST" name="setUp" finished-at="2026-04-21T15:08:20 IST" duration-ms="7073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:20 IST" name="login" finished-at="2026-04-21T15:08:21 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyPastDateBehavior()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:21 IST" name="verifyPastDateBehavior" finished-at="2026-04-21T15:08:23 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPastDateBehavior -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:23 IST" name="tearDown" finished-at="2026-04-21T15:08:23 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:23 IST" name="setUp" finished-at="2026-04-21T15:08:29 IST" duration-ms="5889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:29 IST" name="login" finished-at="2026-04-21T15:08:32 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyReadmissionCheckbox()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:32 IST" name="verifyReadmissionCheckbox" finished-at="2026-04-21T15:08:33 IST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReadmissionCheckbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentBookingTest@6b09fb41]" started-at="2026-04-21T15:08:33 IST" name="tearDown" finished-at="2026-04-21T15:08:34 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AppointmentBookingTest -->
+    </test> <!-- Appointment Booking Tests -->
+    <test started-at="2026-04-21T15:08:14 IST" name="Appointment History Tests" finished-at="2026-04-21T15:08:44 IST" duration-ms="29711">
+      <class name="tests.AppointmentHistoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:14 IST" name="setUp" finished-at="2026-04-21T15:08:19 IST" duration-ms="5066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:19 IST" name="login" finished-at="2026-04-21T15:08:20 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyHistoryContentDisplayed()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:20 IST" name="verifyHistoryContentDisplayed" finished-at="2026-04-21T15:08:24 IST" duration-ms="3535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHistoryContentDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:24 IST" name="tearDown" finished-at="2026-04-21T15:08:24 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:24 IST" name="setUp" finished-at="2026-04-21T15:08:30 IST" duration-ms="5451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:30 IST" name="login" finished-at="2026-04-21T15:08:31 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyHistoryPageLoads()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:31 IST" name="verifyHistoryPageLoads" finished-at="2026-04-21T15:08:33 IST" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHistoryPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:33 IST" name="tearDown" finished-at="2026-04-21T15:08:33 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:33 IST" name="setUp" finished-at="2026-04-21T15:08:38 IST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:38 IST" name="login" finished-at="2026-04-21T15:08:40 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyLatestAppointmentInHistory()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:40 IST" name="verifyLatestAppointmentInHistory" finished-at="2026-04-21T15:08:43 IST" duration-ms="3789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLatestAppointmentInHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppointmentHistoryTest@7bbc8656]" started-at="2026-04-21T15:08:43 IST" name="tearDown" finished-at="2026-04-21T15:08:44 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AppointmentHistoryTest -->
+    </test> <!-- Appointment History Tests -->
+    <test started-at="2026-04-21T15:08:34 IST" name="Multiple Appointments Tests" finished-at="2026-04-21T15:08:50 IST" duration-ms="16256">
+      <class name="tests.MultipleAppointmentsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MultipleAppointmentsTest@46d59067]" started-at="2026-04-21T15:08:34 IST" name="setUp" finished-at="2026-04-21T15:08:37 IST" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:tests.MultipleAppointmentsTest@46d59067]" started-at="2026-04-21T15:08:37 IST" name="login" finished-at="2026-04-21T15:08:43 IST" duration-ms="5716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyMultipleAppointmentsAndSorting()[pri:0, instance:tests.MultipleAppointmentsTest@46d59067]" started-at="2026-04-21T15:08:43 IST" name="verifyMultipleAppointmentsAndSorting" finished-at="2026-04-21T15:08:49 IST" duration-ms="6414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleAppointmentsAndSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MultipleAppointmentsTest@46d59067]" started-at="2026-04-21T15:08:49 IST" name="tearDown" finished-at="2026-04-21T15:08:50 IST" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MultipleAppointmentsTest -->
+    </test> <!-- Multiple Appointments Tests -->
+    <test started-at="2026-04-21T15:08:44 IST" name="Form Validations Tests" finished-at="2026-04-21T15:09:14 IST" duration-ms="30202">
+      <class name="tests.FormValidationsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:08:44 IST" name="setUp" finished-at="2026-04-21T15:08:47 IST" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyDateValidation()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:08:47 IST" name="verifyEmptyDateValidation" finished-at="2026-04-21T15:08:52 IST" duration-ms="5254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyDateValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:08:52 IST" name="tearDown" finished-at="2026-04-21T15:08:53 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:08:53 IST" name="setUp" finished-at="2026-04-21T15:08:55 IST" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyLoginValidation()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:08:55 IST" name="verifyEmptyLoginValidation" finished-at="2026-04-21T15:08:59 IST" duration-ms="4125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyLoginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:08:59 IST" name="tearDown" finished-at="2026-04-21T15:09:00 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:09:00 IST" name="setUp" finished-at="2026-04-21T15:09:10 IST" duration-ms="10598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLongCommentAccepted()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:09:10 IST" name="verifyLongCommentAccepted" finished-at="2026-04-21T15:09:14 IST" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLongCommentAccepted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationsTest@5a7fe64f]" started-at="2026-04-21T15:09:14 IST" name="tearDown" finished-at="2026-04-21T15:09:14 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormValidationsTest -->
+    </test> <!-- Form Validations Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
